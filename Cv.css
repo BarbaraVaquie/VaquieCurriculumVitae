@@ -1,0 +1,312 @@
+html{
+	font-family: 'Raleway', sans-serif;
+	cursor: none;
+}
+
+main {
+	background: rgba(0, 0, 0, 0.2);
+	padding: 0.25rem 0;
+}
+
+.formas{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	animation: forma1 20s ease infinite both;
+}
+.formas .forma{
+
+	position: absolute;
+	width:50% ;
+	height: 50%;
+	filter: blur(2em);
+	animation: forma1 30s ease infinite both;
+}
+.formas .forma1{
+
+	top: 0%;
+	left: 0%;
+
+}
+
+
+.formas .forma1 .path{
+	fill: #66FF99;
+}
+.formas .forma2{
+
+	top: 0%;
+	right: 0%;
+
+
+}
+
+.formas .forma2 .path{
+	fill: #FF4D88;
+}
+.formas .forma3{
+
+	bottom: 0%;
+	left: 0%;
+
+
+}
+
+.formas .forma3 .path{
+	fill: #4DFFFF;
+}
+.formas .forma4{
+
+	bottom: 0%;
+	right: 0%;
+
+}
+
+.formas .forma4 .path{
+	        fill: #E60099;
+}
+
+.header1 {
+			text-align:center ;	
+		}
+
+.background {
+		
+			position: relative;
+			z-index: 3;
+		} 
+
+.avatar {
+			width: 300px;
+			height: 400px;
+			border-radius: 20px;
+
+		}
+
+img:hover{
+	box-shadow: 0 0.2rem 0.8rem  rgba(248, 0, 158, 0.78) ;
+}
+
+.user-name {
+			font-size: 2em;
+			margin-top: 16px;
+			color: #ffffff;
+			text-shadow: 2px 2px 2px #000000;
+			animation: aparecer1 2s ease 1 both;
+
+		}
+
+.borde {
+			border: 3px solid #ffffff;
+		}
+
+div.borde:hover{
+	box-shadow: 0 0.2rem 0.6rem rgba(248, 0, 158, 0.78) ;
+}
+
+.header2 {
+			text-align: center;
+			padding: 3rem 2rem;
+			background: url("https://img.freepik.com/free-vector/hand-drawn-spring-wallpaper_23-2148837372.jpg?w=2000");
+			border: 6px solid #FFFFFF;
+			border-radius: 15px;
+		}
+.header3 {
+	        transition: box-shadow 0.3s ease;
+			text-align: center;
+			padding: 0px;
+			border: 5px solid#FFFFFF;
+			border-radius: 15px;
+			cursor: pointer;
+		}
+		
+div.header3:hover {
+			box-shadow: 0 0.1rem 0.4rem rgba(248, 0, 158, 0.78) ;
+		}
+
+.header4 {
+	        text-align: left;
+			padding: 30px;
+			background: url("https://img.freepik.com/free-vector/hand-drawn-spring-wallpaper_23-2148837372.jpg?w=2000");
+			border: 5px solid#FFFFFF;
+			border-radius: 15px;
+}
+		
+.borde2 {
+		    border: 3px solid #000000;
+			background-color:#FFFFFF;
+			float: right;	
+
+		}
+.borde3 {
+		    border: 3px solid #FFFFFF;
+		    padding: 0.25rem 0;
+			background-color:#FFB3BF;
+			
+
+		}
+.borde4 {
+		    border: 3px solid #FFFFFF;
+			background-color:#FFB3BF;
+			border-radius: 90%;
+			padding: 0.25rem 0;	
+			
+		}
+.borde5 {
+		    border: 3px solid #FFFFFF;
+			background-color:#FFB3BF;
+		    border-radius: 90%;
+			padding: 0.25rem 0;	
+			
+		}
+.borde6 {
+		    border: 3px solid #FFFFFF;
+			background-color:#FFB3BF;
+			padding: 0.25rem 0;
+			
+		}
+.borde7 {
+		    border: 3px solid #FFFFFF;
+			background-color:#FFB3BF;
+			border-radius: 90%;
+			padding: 0.25rem 0;
+			
+			
+        }
+.descripcion {
+	margin: 2em 0;
+}
+.ir-arriba{
+  display:none;
+  width: 2em;
+  height: 2em;
+  top: 70%;
+  left: 95%;
+  border-radius: 50%;
+  background-repeat:no-repeat;
+  font-size:2rem;
+  color: pink;
+  background:rgba(248, 0, 158, 0.78);
+  cursor:pointer;
+  position:fixed;
+  bottom:1rem;
+  right:1rem;
+  transform: translate(-50%,-50%);
+  z-index:80;
+}
+.ir-arriba fa-stack {
+	width: 100%;
+	text-align: center;
+}
+
+a{
+			text-decoration: none;
+			color: #00806A;
+		}
+
+a:hover {
+			color: #00B3B3;
+		}
+
+a:active {
+	        color: #FF19B3;
+}		
+dd {
+			color: #000;
+		}
+#cv{
+			color: #FFB3D9;
+			text-shadow: 2px 3px 3px #001A0D;
+			font-size: 4em ;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			
+		}
+ul {
+	list-style-type: none; color: #000000; 
+	padding: 0px;
+}
+
+dl {
+	margin: 1rem;
+}
+dt {
+	text-align: center;
+}
+dd {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+
+@media(min-width:920px) {
+		.contenedor{
+				display:table-column;
+
+		}
+        .contenedor {
+			display: flex;
+			justify-content: space-between;
+		}
+		
+			}
+
+@media(max-width:500px) {
+        #cv{
+        	  font-size: 2em;
+    }
+}	
+@keyframes forma1{
+	from{
+	transform:rotate(0deg) scale(3);
+
+}
+to{
+	transform:rotate(360deg) scale(3);
+}
+}
+@keyframes aparecer1{
+	from {
+		opacity: 0;
+		transform: translateY(50%);
+
+	}
+	to {
+		opacity: 1;
+		transform:translateY(0%);
+
+	}
+}
+@keyframes animacion {
+	0%{
+		width: 0rem;
+		height: 0rem;
+	}
+	50%{
+		width: 8rem;
+		height: 8rem;
+	}
+	100%{
+		width: 6.6rem;
+		height: 6.6rem;
+	}
+}
+#cursor {
+	width: 5em;
+	height: 5em;
+	position: absolute;
+	top: 0;
+    left: 0;
+    z-index: 200;
+    background: white;
+    pointer-events: none;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    transform: translate(-50%,-50%);
+    transition: none;
+}
